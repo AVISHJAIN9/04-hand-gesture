@@ -1,0 +1,23 @@
+---
+layout: home
+
+hero:
+  name: "Touchless Chef"
+  text: "Hands-Free Gesture Video Control"
+  tagline: "React 18 • MediaPipe Tasks Vision • WebAssembly • WebGL GPU • Edge AI"
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /00a-project-analysis
+    - theme: alt
+      text: System Design
+      link: /system-design/README
+
+features:
+  - title: In-Browser Edge AI
+    details: Pre-trained float16 neural network running on client GPU via WebAssembly with sub-15ms inference latency.
+  - title: Zero-Server Privacy
+    details: 100% local webcam frame processing guaranteeing zero biometric data leakage across the internet.
+  - title: Kitchen-Grade Debounce
+    details: 1500ms time-decay debounce filter combined with 75% confidence gating eliminating gesture flapping.
+---
